@@ -15,7 +15,7 @@ Usage
 Clone the repo:
 
     git clone https://github.com/JamesTheHacker/PostCSS-Autoprefixer-Boilerplate
-    cd PostCSS-Boilerplate
+    cd PostCSS-Autoprefixer-Boilerplate
 
 Install packages:
 
