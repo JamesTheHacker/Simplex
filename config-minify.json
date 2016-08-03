@@ -1,12 +1,13 @@
 {
     "use": [
+      "postcss-import",
       "lost",
       "postcss-cssnext",
       "rucksack-css",
       "postcss-autoreset",
       "cssnano"
     ],
-    "input": "src/*.css",
+    "input": "src/app.css",
     "output": "css/main.min.css",
     "local-plugins": true,
     "autoprefixer": {

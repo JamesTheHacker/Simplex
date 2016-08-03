@@ -13,6 +13,7 @@ Contains support for:
 * [Rucksack](https://simplaio.github.io/rucksack/): CSS Superpowers
 * [PostCSS Autoreset](https://github.com/maximkoretskiy/postcss-autoreset): Adds `all: initial` to all elements
 * [CSSNano](http://cssnano.co/): Minify and optimize CSS
+* [PostCSS Import](https://github.com/postcss/postcss-import): PostCSS plugin to inline `@import` rules content
 
 Usage
 -----
@@ -26,9 +27,9 @@ Install packages:
 
     npm install
 
-Now you can simply write your CSS as normal, save it under the `src` directory:
+Now you can simply write your CSS as normal:
 
-`src/post.css`
+`src/app.css`
 
 ```css
 .post {
@@ -41,7 +42,7 @@ Now you can simply write your CSS as normal, save it under the `src` directory:
 
     npm run build
 
-This will output a single file called `css/main.css` in root directory:
+This will output a single file called `css/main.css` in root directory. All styles must go into `src/app.css`. If you want to seperate your CSS see the section below.
 
 ```css
 .post {
@@ -51,6 +52,29 @@ This will output a single file called `css/main.css` in root directory:
   background-image: linear-gradient(white, grey);
 }
 ```
+
+Modular CSS
+-----------
+
+Simplex allows you to split your CSS into multiple files. This makes it easier to keep your styles clean and tidy. `src/app.css` is the main bootstrap file. Whenever you create a new CSS file/module you must import it into the `app.css` file.
+
+For example, if you have the following CSS files:
+
+```
+src
+ - app.css
+ - header.css
+ - footer.css
+```
+
+You include them in `app.css` like so:
+
+```css
+@import header.css
+@import footer.css
+```
+
+When you run `npm run build` it will combine all the files and store them in a single `css/main.css` file.
 
 Minify
 ------

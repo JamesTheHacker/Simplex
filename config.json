@@ -1,14 +1,15 @@
 {
     "use": [
+      "postcss-import",
       "lost",
       "postcss-cssnext",
       "rucksack-css",
       "postcss-autoreset"
     ],
-    "input": "src/*.css",
+    "input": "src/app.css",
     "output": "css/main.css",
     "local-plugins": true,
     "autoprefixer": {
-        "browsers": "last 2 versions"
+      "browsers": "last 2 versions"
     }
 }
