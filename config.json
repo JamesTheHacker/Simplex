@@ -1,8 +1,8 @@
 {
     "use": [
-      "autoprefixer",
       "lost",
-      "cssnext"
+      "postcss-cssnext",
+      "rucksack-css"
     ],
     "input": "css/*.css",
     "output": "build/main.css",
