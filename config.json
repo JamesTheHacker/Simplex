@@ -8,6 +8,6 @@
     "output": "build/main.css",
     "local-plugins": true,
     "autoprefixer": {
-        "browsers": ">5%"
+        "browsers": "last 2 versions"
     }
 }
