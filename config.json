@@ -1,7 +1,12 @@
 {
-    "use": ["autoprefixer"],
+    "use": [
+      "autoprefixer",
+      "lost",
+      "cssnext"
+    ],
     "input": "css/*.css",
     "output": "build/main.css",
+    "local-plugins": true,
     "autoprefixer": {
         "browsers": ">5%"
     }

@@ -3,7 +3,10 @@ PostCSS Autoprefixer Boilerplate
 
 This is a simple boilerplate template to quickly get up and running with PostCSS Autoprefixer. It uses npm scripts to prefix, bundle and build all your CSS files into a single file.
 
-Now you can write plain old CSS and never have to worry about browser prefixes.
+Contains support for:
+
+* [CSSNext](http://cssnext.io): Use next generation CSS today
+* [Lost Grids](https://github.com/peterramsing/lost): Create awesome grids
 
 Usage
 -----
@@ -39,5 +42,11 @@ This will output a single file called `main.css` in the `build` directory with p
         background-image: linear-gradient(white, grey);
     }
 
+Watch
+-----
+
+PostCSS can automatically recompile your CSS whenever you save a file. Run the following command:
+
+    npm run watch
 
 Seriously, it's that simple. You never need write a browser prefix in your life!

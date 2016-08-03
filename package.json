@@ -1,11 +1,12 @@
 {
-  "name": "jamesjeffery",
+  "name": "",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node node_modules/postcss-cli/bin/postcss -c config.json"
+    "build": "node_modules/postcss-cli/bin/postcss -c config.json",
+    "watch": "node_modules/postcss-cli/bin/postcss -c config.json -w"
   },
   "author": "",
   "license": "ISC",
