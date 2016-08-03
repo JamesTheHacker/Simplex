@@ -60,5 +60,5 @@ Autoprefixer allows you to target specific browsers. For example you can target 
 Currently I've set it to the `last 2 versions`. To change simply modify `config.json`. Specifically the following line:
 
     "autoprefixer": {
-        "browsers": ">5%"
+        "browsers": "last 2 versions"
     }
