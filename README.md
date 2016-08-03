@@ -1,14 +1,17 @@
-PostCSS Autoprefixer Boilerplate
-================================
+Simplex
+=======
 
-This is a simple boilerplate template to quickly get up and running with PostCSS Autoprefixer. It uses npm scripts to prefix, bundle and build all your CSS files into a single file.
+Simplex is the easiest way to get up and running with PostCSS.
+
+Instead of using Webpack, Gulp or any other build tool we use simple NPM scripts and commandline tools to create an easy to use CSS build tool.
 
 Contains support for:
 
+* [Autoprefixer](https://github.com/postcss/autoprefixer): Automatically adds vendor prefixes
 * [CSSNext](http://cssnext.io): Use next generation CSS today
 * [Lost Grids](https://github.com/peterramsing/lost): Create awesome grids
 * [Rucksack](https://simplaio.github.io/rucksack/): CSS Superpowers
-* [PostCSS Autoreset](https://github.com/maximkoretskiy/postcss-autoreset): Adds `all: initial` to all elements
+* [PostCSS Autoreset](https://github.com/maximkoretskiy/postcss-autoreset): Adds `all: initial` to
 
 Usage
 -----
@@ -51,7 +54,6 @@ PostCSS can automatically recompile your CSS whenever you save a file. Run the f
 
     npm run watch
 
-Seriously, it's that simple. You never need write a browser prefix in your life!
 
 Browser Targeting
 -----------------
