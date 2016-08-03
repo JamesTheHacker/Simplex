@@ -70,8 +70,8 @@ src
 You include them in `app.css` like so:
 
 ```css
-@import header.css
-@import footer.css
+@import "header.css";
+@import "footer.css";
 ```
 
 When you run `npm run build` it will combine all the files and store them in a single `css/main.css` file.
