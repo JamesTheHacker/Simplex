@@ -42,12 +42,14 @@ Now you can simply write your CSS as normal, save it under the `src` directory:
 
 This will output a single file called `main.css` in root directory with prefixes:
 
-    .post {
-        display: -webkit-box;
-        display: flex;
-        background-image: -webkit-linear-gradient(white, grey);
-        background-image: linear-gradient(white, grey);
-    }
+```css
+.post {
+  display: -webkit-box;
+  display: flex;
+  background-image: -webkit-linear-gradient(white, grey);
+  background-image: linear-gradient(white, grey);
+}
+```
 
 Watch
 -----
