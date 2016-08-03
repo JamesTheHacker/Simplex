@@ -55,7 +55,7 @@ This will output a single file called `css/main.css` in root directory:
 Minify
 ------
 
-Simplex can minify and optimize your CSS using [cssnano]:
+Simplex can minify and optimize your CSS using [cssnano](http://cssnano.co/):
 
     npm run minify
 
