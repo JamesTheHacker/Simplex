@@ -29,10 +29,12 @@ Now you can simply write your CSS as normal, save it under the `src` directory:
 
 `src/post.css`
 
-    .post {
-        display: flex;
-        background-image: linear-gradient(white, grey);
-    }
+```css
+.post {
+  display: flex;
+  background-image: linear-gradient(white, grey);
+}
+```
 
 ... and build:
 
