@@ -4,8 +4,8 @@
       "postcss-cssnext",
       "rucksack-css"
     ],
-    "input": "css/*.css",
-    "output": "build/main.css",
+    "input": "src/*.css",
+    "output": "main.css",
     "local-plugins": true,
     "autoprefixer": {
         "browsers": "last 2 versions"

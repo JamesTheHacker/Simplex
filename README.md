@@ -21,9 +21,9 @@ Install packages:
 
     npm install
 
-Now you can simply write your CSS as normal, save it under the `css` directory:
+Now you can simply write your CSS as normal, save it under the `src` directory:
 
-`css/post.css`
+`src/post.css`
 
     .post {
         display: flex;
@@ -34,7 +34,7 @@ Now you can simply write your CSS as normal, save it under the `css` directory:
 
     npm run build
 
-This will output a single file called `main.css` in the `build` directory with prefixes:
+This will output a single file called `main.css` in root directory with prefixes:
 
     .post {
         display: -webkit-box;
