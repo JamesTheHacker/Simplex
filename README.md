@@ -18,8 +18,8 @@ Usage
 
 Clone the repo:
 
-    git clone https://github.com/JamesTheHacker/PostCSS-Autoprefixer-Boilerplate
-    cd PostCSS-Autoprefixer-Boilerplate
+    git clone https://github.com/JamesTheHacker/Simplex
+    cd Simplex
 
 Install packages:
 
