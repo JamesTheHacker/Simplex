@@ -2,7 +2,8 @@
     "use": [
       "lost",
       "postcss-cssnext",
-      "rucksack-css"
+      "rucksack-css",
+      "postcss-autoreset"
     ],
     "input": "src/*.css",
     "output": "main.css",

@@ -8,6 +8,7 @@ Contains support for:
 * [CSSNext](http://cssnext.io): Use next generation CSS today
 * [Lost Grids](https://github.com/peterramsing/lost): Create awesome grids
 * [Rucksack](https://simplaio.github.io/rucksack/): CSS Superpowers
+* [PostCSS Autoreset](https://github.com/maximkoretskiy/postcss-autoreset): Adds `all: initial` to all elements
 
 Usage
 -----

@@ -13,6 +13,7 @@
   "devDependencies": {
     "autoprefixer": "^6.3.7",
     "lost": "^7.0.3",
+    "postcss-autoreset": "^1.1.5",
     "postcss-cli": "^2.5.2",
     "postcss-cssnext": "^2.7.0",
     "rucksack-css": "^0.8.6"
