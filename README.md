@@ -12,6 +12,7 @@ Contains support for:
 * [Lost Grids](https://github.com/peterramsing/lost): Create awesome grids
 * [Rucksack](https://simplaio.github.io/rucksack/): CSS Superpowers
 * [PostCSS Autoreset](https://github.com/maximkoretskiy/postcss-autoreset): Adds `all: initial` to all elements
+* [CSSNano](http://cssnano.co/): Minify and optimize CSS
 
 Usage
 -----
