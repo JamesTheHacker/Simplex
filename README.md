@@ -23,7 +23,7 @@ Install packages:
 
 Now you can simply write your CSS as normal, save it under the `css` directory:
 
-**css/post.css**
+`css/post.css`
 
     .post {
         display: flex;
