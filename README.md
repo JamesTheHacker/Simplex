@@ -40,7 +40,7 @@ Now you can simply write your CSS as normal, save it under the `src` directory:
 
     npm run build
 
-This will output a single file called `main.css` in root directory with prefixes:
+This will output a single file called `css/main.css` in root directory:
 
 ```css
 .post {
@@ -50,6 +50,15 @@ This will output a single file called `main.css` in root directory with prefixes
   background-image: linear-gradient(white, grey);
 }
 ```
+
+Minify
+------
+
+Simplex can minify and optimize your CSS using [cssnano]:
+
+    npm run minify
+
+This will output a minified CSS file and store it under `css/main.min.css`. If you encounter a duplication warning during minification you can safely ignore it.
 
 Watch
 -----

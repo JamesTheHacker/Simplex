@@ -6,12 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node_modules/postcss-cli/bin/postcss -c config.json",
-    "watch": "node_modules/postcss-cli/bin/postcss -c config.json -w"
+    "watch": "node_modules/postcss-cli/bin/postcss -c config.json -w",
+    "minify": "node_modules/postcss-cli/bin/postcss -c config-minify.json"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^6.3.7",
+    "cssnano": "^3.7.3",
     "lost": "^7.0.3",
     "postcss-autoreset": "^1.1.5",
     "postcss-cli": "^2.5.2",

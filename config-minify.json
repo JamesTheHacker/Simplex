@@ -3,10 +3,11 @@
       "lost",
       "postcss-cssnext",
       "rucksack-css",
-      "postcss-autoreset"
+      "postcss-autoreset",
+      "cssnano"
     ],
     "input": "src/*.css",
-    "output": "css/main.css",
+    "output": "css/main.min.css",
     "local-plugins": true,
     "autoprefixer": {
         "browsers": "last 2 versions"
