@@ -51,3 +51,14 @@ PostCSS can automatically recompile your CSS whenever you save a file. Run the f
     npm run watch
 
 Seriously, it's that simple. You never need write a browser prefix in your life!
+
+Browser Targeting
+-----------------
+
+Autoprefixer allows you to target specific browsers. For example you can target all modern browsers including the last 2 versions, or the top 5%, or whatever you like. See [Browserlist](https://github.com/ai/browserslist) for more information.
+
+Currently I've set it to the `last 2 versions`. To change simply modify `config.json`. Specifically the following line:
+
+    "autoprefixer": {
+        "browsers": ">5%"
+    }
